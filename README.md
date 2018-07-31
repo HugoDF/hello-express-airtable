@@ -20,10 +20,11 @@ On the back-end,
 - add frameworks and packages in `package.json`
 - safely store app secrets in `.env` (nobody can see this but you and people you invite)
 
-Put 
+## Get started
+**Prerequisite**: an [Airtable](https://airtable.com/invite/r/efFknGGu) account, maybe a Glich account
 
+1. [Remix this on Glitch](https://glitch.com/edit/#!/remix/hello-express-airtable)
+2. Get your API key by going to [https://airtable.com/account](https://airtable.com/account) and clicking "Generate key" 
+3. Get your base id by going to your base and clicking "Help (i)" and then "API Documentation"
+4. Put your `AIRTABLE_BASE` and `AIRTABLE_API_KEY` in `.env`
 
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ

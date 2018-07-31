@@ -1,0 +1,70 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to Glitch!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        A Dream of the Future
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Oh hi,</p>
+      
+      <p>This app is connected to Airtable</p>
+      <section>
+        <h2>Get started:</h2>
+        <strong>Prerequisite</strong>: an <a href="https://airtable.com/invite/r/efFknGGu">Airtable</a> account, maybe a Glich account
+        <ol>
+          <li><a href="https://glitch.com/edit/#!/remix/hello-express-airtable">Remix this on Glitch</a></li>
+          <li>Get your API key by going to <a href="https://airtable.com/account">https://airtable.com/account</a> and clicking "Generate key"</li>
+          <li>Get your base id by going to your base and </li>
+          <li>Put your <code>AIRTABLE_BASE</code> and <code>AIRTABLE_API_KEY</code> in <code>.env</code></li>
+          <li>Enter a table name from your base</li>
+          <li>Click the button below to test it worked</li>
+        </ol>
+        <form>
+          <input class="airtable-table-name" value="Table 1">
+          <button class="airtable-test">
+            Click here to get Airtable base info
+          </button>
+          <p>Output: <pre><code class="airtable-test-output"></code></pre></p>
+        </form>
+      </section>
+      
+      
+    </main>
+
+    <footer>
+      Made with <a href="https://glitch.com">Glitch</a>!
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
